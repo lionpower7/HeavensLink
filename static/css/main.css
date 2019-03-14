@@ -1,0 +1,641 @@
+@import url('https://fonts.googleapis.com/css?family=ABeeZee|Quicksand');
+
+/* Covers Media Queries For Phones, Tablets, Laptops & Desktops. But Doesn't Cover Landscape Views for Phones & Tablets. */
+
+/* Seperate File called 'ls.css' covers Landscapes as mentioned above. */
+
+
+/* Iphone X/XS */
+@media (max-width: 400px) and (max-height: 812px) {
+    body {
+        font-family: "Quicksand", sans-serif;
+        height: 100vh;
+        margin: 0px;
+        padding: 0px;
+        background-image: linear-gradient(to bottom, #f2f2f2, #efefef, #ededed, #eaeaea, #e8e8e8, #e6e6e6, #e3e3e3, #e1e1e1, #dedede, #dbdbdb, #d9d9d9, #d6d6d6);
+    }
+
+    .a1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    /* General Rule For Fonts */
+    .qs {
+        color: rgb(5, 46, 82);
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    #b1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #b1 {
+        height: 7vh;
+        width: 100vw;
+        color: aliceblue;
+        font-weight: 700;
+        background-image: linear-gradient(to top, #013f4c, #0a3f50, #144053, #1d4055, #254057, #283e55, #2b3d54, #2d3b52, #2b384d, #283448, #263144, #242e3f);
+    }
+
+    #b2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .sm {
+        height: 50px;
+        width: 50px;
+        background-image: linear-gradient(to right top, #132928, #172b2c, #1b2c30, #212e33, #262f35, #262f37, #262f38, #272f3a, #232d3d, #1e2b3f, #1b2942, #172744);
+        -webkit-clip-path: circle(50% at 50% 50%);
+        clip-path: circle(50% at 50% 50%);
+        margin: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fa-facebook-f {
+        text-decoration: none;
+        color: #1866f6;
+    }
+
+    .fa-youtube {
+        color: red;
+    }
+
+    .fa-twitter {
+        color: #00bbff;
+    }
+
+    .a2 {
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    #miniBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        margin: 2% 0%;
+        padding: 2%;
+        color: white;
+        background-image: linear-gradient(to right top, #132928, #172b2c, #1b2c30, #212e33, #262f35, #262f37, #262f38, #272f3a, #232d3d, #1e2b3f, #1b2942, #172744);
+        border-radius: 15px;
+    }
+
+    #mb-top {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .mb-v {
+        font-family: "ABeeZee", sans-serif;
+    }
+
+    .gd {
+        margin-left: auto;
+        height: 10px;
+        width: 10px;
+        -webkit-clip-path: circle(50% at 50% 50%);
+        clip-path: circle(50% at 50% 50%);
+        background-image: radial-gradient(rgb(24, 33, 46) 10%, rgb(28, 56, 68) 15%, rgb(224, 203, 10) 60%);
+    }
+
+    #mb-bottom {
+        text-align: center;
+    }
+
+    #b3 {
+        height: 100%;
+        width: 90%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        background:linear-gradient(to right, #BF953F, #cec77b, #B38728, #99913f, #AA771C);
+    }
+
+    .mts {
+        height: 70%;
+    }
+
+    .mts img {
+        height: 100%;
+        width: 100%;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+
+    .mts-t {
+        text-align: center;
+        padding: 3%;
+    }
+
+    .a3 {
+        margin-top: 30px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 3%;
+    }
+
+    #le {
+        color: white;
+        padding: 3%;
+        border-radius: 20px;
+        background-image: linear-gradient(to top, #013f4c, #0a3f50, #144053, #1d4055, #254057, #283e55, #2b3d54, #2d3b52, #2b384d, #283448, #263144, #242e3f);
+    }
+}
+
+/* Mobile Phones */
+@media (min-width: 320px) and (max-width: 480px) {
+    body {
+        font-family: "Quicksand", sans-serif;
+        height: 100vh;
+        margin: 0px;
+        padding: 0px;
+        background-image: linear-gradient(to bottom, #f2f2f2, #efefef, #ededed, #eaeaea, #e8e8e8, #e6e6e6, #e3e3e3, #e1e1e1, #dedede, #dbdbdb, #d9d9d9, #d6d6d6);
+    }
+
+    .a1 {
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    /* General Rule For Fonts */
+    .qs {
+        color: rgb(5, 46, 82);
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    #b1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #b1 {
+        height: 7vh;
+        width: 100vw;
+        color: aliceblue;
+        font-weight: 700;
+        background-image: linear-gradient(to top, #013f4c, #0a3f50, #144053, #1d4055, #254057, #283e55, #2b3d54, #2d3b52, #2b384d, #283448, #263144, #242e3f);
+    }
+
+    #b2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .sm {
+        height: 50px;
+        width: 50px;
+        background-image: linear-gradient(to right top, #132928, #172b2c, #1b2c30, #212e33, #262f35, #262f37, #262f38, #272f3a, #232d3d, #1e2b3f, #1b2942, #172744);
+        -webkit-clip-path: circle(50% at 50% 50%);
+        clip-path: circle(50% at 50% 50%);
+        margin: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fa-facebook-f {
+        text-decoration: none;
+        color: #1866f6;
+    }
+
+    .fa-youtube {
+        color: red;
+    }
+
+    .fa-twitter {
+        color: #00bbff;
+    }
+
+    .a2 {
+        height: 65vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    #miniBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        height: 21%;
+        color: white;
+        background-image: linear-gradient(to right top, #132928, #172b2c, #1b2c30, #212e33, #262f35, #262f37, #262f38, #272f3a, #232d3d, #1e2b3f, #1b2942, #172744);
+        border-radius: 15px;
+    }
+
+    #mb-top {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin: 3% 3% 0% 3%;
+    }
+
+    .mb-v {
+        font-family: "ABeeZee", sans-serif;
+        font-size: 15px;
+    }
+
+    .gd {
+        margin-left: auto;
+        height: 10px;
+        width: 10px;
+        -webkit-clip-path: circle(50% at 50% 50%);
+        clip-path: circle(50% at 50% 50%);
+        background-image: radial-gradient(rgb(24, 33, 46) 10%, rgb(28, 56, 68) 15%, rgb(224, 203, 10) 60%);
+    }
+
+    #mb-bottom {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    #b3 {
+        height: 85%;
+        width: 90%;
+        margin: 1% 0;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        background:linear-gradient(to right, #BF953F, #cec77b, #B38728, #99913f, #AA771C);
+    }
+
+    .mts {
+        height: 70%;
+    }
+
+    .mts img {
+        height: 100%;
+        width: 100%;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+
+    .mts-t {
+        text-align: center;
+    }
+
+    .mts-t p {
+        padding: 0%;
+        font-size: 0.9rem;
+    }
+
+    .a3 {
+        height: 15vh;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0 1%;
+    }
+
+    #le {
+        color: white;
+        padding: 1.5%;
+        border-radius: 20px;
+        background-image: linear-gradient(to top, #013f4c, #0a3f50, #144053, #1d4055, #254057, #283e55, #2b3d54, #2d3b52, #2b384d, #283448, #263144, #242e3f);
+    }
+}
+
+/* Desktop & Laptops */
+/* This Pc is 1280px Wide */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    body {
+        font-family: "Quicksand", sans-serif;
+        height: 100vh;
+        margin: 0px;
+        padding: 0px;
+        background-image: linear-gradient(to bottom, #f2f2f2, #efefef, #ededed, #eaeaea, #e8e8e8, #e6e6e6, #e3e3e3, #e1e1e1, #dedede, #dbdbdb, #d9d9d9, #d6d6d6);
+    }
+
+    .a1 {
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    /* General Rule For Fonts */
+    .qs {
+        color: rgb(5, 46, 82);
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    #b1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #b1 {
+        height: 7vh;
+        width: 100vw;
+        color: aliceblue;
+        font-weight: 700;
+        background-image: linear-gradient(to top, #013f4c, #0a3f50, #144053, #1d4055, #254057, #283e55, #2b3d54, #2d3b52, #2b384d, #283448, #263144, #242e3f);
+    }
+
+    #b2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .sm {
+        height: 50px;
+        width: 50px;
+        background-image: linear-gradient(to right top, #132928, #172b2c, #1b2c30, #212e33, #262f35, #262f37, #262f38, #272f3a, #232d3d, #1e2b3f, #1b2942, #172744);
+        -webkit-clip-path: circle(50% at 50% 50%);
+        clip-path: circle(50% at 50% 50%);
+        margin: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fa-facebook-f {
+        text-decoration: none;
+        color: #1866f6;
+    }
+
+    .fa-youtube {
+        color: red;
+    }
+
+    .fa-twitter {
+        color: #00bbff;
+    }
+
+    .a2 {
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    #miniBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 76%;
+        padding: 2%;
+        color: white;
+        background-image: linear-gradient(to right top, #132928, #172b2c, #1b2c30, #212e33, #262f35, #262f37, #262f38, #272f3a, #232d3d, #1e2b3f, #1b2942, #172744);
+        border-radius: 15px;
+    }
+
+    #mb-top {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .mb-v {
+        font-family: "ABeeZee", sans-serif;
+    }
+
+    .gd {
+        margin-left: auto;
+        height: 10px;
+        width: 10px;
+        -webkit-clip-path: circle(50% at 50% 50%);
+        clip-path: circle(50% at 50% 50%);
+        background-image: radial-gradient(rgb(24, 33, 46) 10%, rgb(28, 56, 68) 15%, rgb(224, 203, 10) 60%);
+    }
+
+    #mb-bottom {
+        text-align: center;
+    }
+
+    #b3 {
+        height: 80%;
+        width: 80%;
+        margin: 1% 0;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        background:linear-gradient(to right, #BF953F, #cec77b, #B38728, #99913f, #AA771C);
+    }
+
+    .mts {
+        height: 70%;
+    }
+
+    .mts img {
+        height: 100%;
+        width: 100%;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+
+    .mts-t {
+        text-align: center;
+        padding: 3%;
+    }
+
+    .a3 {
+        height: 15vh;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0 1%;
+    }
+
+    #le {
+        color: white;
+        padding: 1%;
+        border-radius: 20px;
+        background-image: linear-gradient(to top, #013f4c, #0a3f50, #144053, #1d4055, #254057, #283e55, #2b3d54, #2d3b52, #2b384d, #283448, #263144, #242e3f);
+    }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        font-family: "Quicksand", sans-serif;
+        height: 100vh;
+        margin: 0px;
+        padding: 0px;
+        background-image: linear-gradient(to bottom, #f2f2f2, #efefef, #ededed, #eaeaea, #e8e8e8, #e6e6e6, #e3e3e3, #e1e1e1, #dedede, #dbdbdb, #d9d9d9, #d6d6d6);
+    }
+
+    .a1 {
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    /* General Rule For Fonts */
+    .qs {
+        color: rgb(5, 46, 82);
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    #b1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #b1 {
+        height: 7vh;
+        width: 100vw;
+        color: aliceblue;
+        font-weight: 700;
+        background-image: linear-gradient(to top, #013f4c, #0a3f50, #144053, #1d4055, #254057, #283e55, #2b3d54, #2d3b52, #2b384d, #283448, #263144, #242e3f);
+    }
+
+    #b2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .sm {
+        height: 50px;
+        width: 50px;
+        background-image: linear-gradient(to right top, #132928, #172b2c, #1b2c30, #212e33, #262f35, #262f37, #262f38, #272f3a, #232d3d, #1e2b3f, #1b2942, #172744);
+        -webkit-clip-path: circle(50% at 50% 50%);
+        clip-path: circle(50% at 50% 50%);
+        margin: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fa-facebook-f {
+        text-decoration: none;
+        color: #1866f6;
+    }
+
+    .fa-youtube {
+        color: red;
+    }
+
+    .fa-twitter {
+        color: #00bbff;
+    }
+
+    .a2 {
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    #miniBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 76%;
+        padding: 2%;
+        color: white;
+        background-image: linear-gradient(to right top, #132928, #172b2c, #1b2c30, #212e33, #262f35, #262f37, #262f38, #272f3a, #232d3d, #1e2b3f, #1b2942, #172744);
+        border-radius: 15px;
+    }
+
+    #mb-top {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .mb-v {
+        font-family: "ABeeZee", sans-serif;
+    }
+
+    .gd {
+        margin-left: auto;
+        height: 10px;
+        width: 10px;
+        -webkit-clip-path: circle(50% at 50% 50%);
+        clip-path: circle(50% at 50% 50%);
+        background-image: radial-gradient(rgb(24, 33, 46) 10%, rgb(28, 56, 68) 15%, rgb(224, 203, 10) 60%);
+    }
+
+    #mb-bottom {
+        text-align: center;
+    }
+
+    #b3 {
+        height: 80%;
+        width: 80%;
+        margin: 1% 0;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        background:linear-gradient(to right, #BF953F, #cec77b, #B38728, #99913f, #AA771C);
+    }
+
+    .mts {
+        height: 70%;
+    }
+
+    .mts img {
+        height: 100%;
+        width: 100%;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+
+    .mts-t {
+        text-align: center;
+        padding: 3%;
+    }
+
+    .a3 {
+        height: 15vh;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0 1%;
+    }
+
+    #le {
+        color: white;
+        padding: 1%;
+        border-radius: 20px;
+        background-image: linear-gradient(to top, #013f4c, #0a3f50, #144053, #1d4055, #254057, #283e55, #2b3d54, #2d3b52, #2b384d, #283448, #263144, #242e3f);
+    }
+}
